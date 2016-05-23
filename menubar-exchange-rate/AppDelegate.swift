@@ -18,6 +18,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSXMLParserDelegate
     // Menubar item
     let statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(-1)
 
+    @IBOutlet weak var lastUpdate: NSMenuItem!
     
     func applicationDidFinishLaunching(aNotification: NSNotification)
     {
@@ -28,6 +29,9 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSXMLParserDelegate
                                                             selector: #selector(runTimedCode),
                                                             userInfo: nil,
                                                             repeats: true)
+        
+        NSRunLoop.currentRunLoop().addTimer(fetchTimer, forMode: NSRunLoopCommonModes)
+        
         // Run for the first time
         runTimedCode()
         
@@ -54,19 +58,9 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSXMLParserDelegate
             
             if (statusCode == 200)
             {
-                do
-                {
-                    let json = try NSJSONSerialization.JSONObjectWithData(data!, options:.AllowFragments)
-                    
-                    let rate = String(json["query"]!!["results"]!!["row"]!!["col1"]!!)
-                    
-                    self.statusItem.title = "🇨🇱$" + rate
-                    
-                }
-                catch
-                {
-                    self.statusItem.title = "Unable to retrieve CLP"
-                }
+                self.printRate(data)
+                
+                self.printUpdatedTime(data)
             }
         }
         
@@ -74,6 +68,50 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSXMLParserDelegate
     }
 
     
+    func printRate(data: Optional<NSData>)
+    {
+        do
+        {
+            let json = try NSJSONSerialization.JSONObjectWithData(data!, options:.AllowFragments)
+        
+            let rate = String(json["query"]!!["results"]!!["row"]!!["col1"]!!)
+        
+            self.statusItem.title = "🇨🇱$" + rate
+        }
+        catch
+        {
+            self.statusItem.title = "🇨🇱$---"
+        }
+    }
+    
+    func printUpdatedTime(data: Optional<NSData>)
+    {
+        do
+        {
+            let json = try NSJSONSerialization.JSONObjectWithData(data!, options:.AllowFragments)
+            
+            let updated = String(json["query"]!!["created"]!!)
+            
+            let dateFormatter = NSDateFormatter()
+            
+            dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
+            dateFormatter.timeZone = NSTimeZone(name: "UTC")
+            
+            let date = dateFormatter.dateFromString(updated)
+            
+            dateFormatter.dateFormat = "M/d/Y h:mm:ssa"
+            dateFormatter.timeZone = NSTimeZone.localTimeZone()
+            let timestamp = dateFormatter.stringFromDate(date!)
+            
+            // Update Last updated time
+            self.lastUpdate.title = "Last updated " + String(timestamp)
+        }
+        catch
+        {
+            self.lastUpdate.title = "Unable to fetch data"
+        }
+    }
+
     @IBAction func quit(sender: NSMenuItem)
     {
         NSApplication.sharedApplication().terminate(nil)

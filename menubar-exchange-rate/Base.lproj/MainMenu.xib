@@ -15,6 +15,7 @@
         <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="menubar_exchange_rate" customModuleProvider="target">
             <connections>
                 <outlet property="currencyMenu" destination="ORF-eh-Sfn" id="ilm-Hc-R99"/>
+                <outlet property="lastUpdate" destination="6O8-qL-6YX" id="n6X-7a-WBN"/>
             </connections>
         </customObject>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
@@ -669,6 +670,9 @@
         </menu>
         <menu id="ORF-eh-Sfn">
             <items>
+                <menuItem title="Nothing fetched yet" id="6O8-qL-6YX">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
                 <menuItem title="USD-CLP Exchange Rate by Jaime Lopez" id="Dcf-Fx-V69">
                     <modifierMask key="keyEquivalentModifierMask"/>
                 </menuItem>
