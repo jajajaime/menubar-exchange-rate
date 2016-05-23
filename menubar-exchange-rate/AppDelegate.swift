@@ -60,7 +60,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSXMLParserDelegate
                     
                     let rate = String(json["query"]!!["results"]!!["row"]!!["col1"]!!)
                     
-                    self.statusItem.title = "CLP$" + rate
+                    self.statusItem.title = "🇨🇱$" + rate
                     
                 }
                 catch
