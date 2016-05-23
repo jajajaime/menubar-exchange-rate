@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A504D5071CF3501C00A37D95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A504D5061CF3501C00A37D95 /* AppDelegate.swift */; };
+		A504D5091CF3501C00A37D95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A504D5081CF3501C00A37D95 /* Assets.xcassets */; };
+		A504D50C1CF3501C00A37D95 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A504D50A1CF3501C00A37D95 /* MainMenu.xib */; };
+		A504D5171CF3501D00A37D95 /* menubar_exchange_rateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A504D5161CF3501D00A37D95 /* menubar_exchange_rateTests.swift */; };
+		A504D5221CF3501D00A37D95 /* menubar_exchange_rateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A504D5211CF3501D00A37D95 /* menubar_exchange_rateUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A504D5131CF3501D00A37D95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A504D4FB1CF3501C00A37D95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A504D5021CF3501C00A37D95;
+			remoteInfo = "menubar-exchange-rate";
+		};
+		A504D51E1CF3501D00A37D95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A504D4FB1CF3501C00A37D95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A504D5021CF3501C00A37D95;
+			remoteInfo = "menubar-exchange-rate";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A504D5031CF3501C00A37D95 /* menubar-exchange-rate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "menubar-exchange-rate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A504D5061CF3501C00A37D95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A504D5081CF3501C00A37D95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A504D50B1CF3501C00A37D95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A504D50D1CF3501C00A37D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A504D5121CF3501D00A37D95 /* menubar-exchange-rateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "menubar-exchange-rateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A504D5161CF3501D00A37D95 /* menubar_exchange_rateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menubar_exchange_rateTests.swift; sourceTree = "<group>"; };
+		A504D5181CF3501D00A37D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A504D51D1CF3501D00A37D95 /* menubar-exchange-rateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "menubar-exchange-rateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A504D5211CF3501D00A37D95 /* menubar_exchange_rateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menubar_exchange_rateUITests.swift; sourceTree = "<group>"; };
+		A504D5231CF3501D00A37D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A504D5001CF3501C00A37D95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A504D50F1CF3501D00A37D95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A504D51A1CF3501D00A37D95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A504D4FA1CF3501C00A37D95 = {
+			isa = PBXGroup;
+			children = (
+				A504D5051CF3501C00A37D95 /* menubar-exchange-rate */,
+				A504D5151CF3501D00A37D95 /* menubar-exchange-rateTests */,
+				A504D5201CF3501D00A37D95 /* menubar-exchange-rateUITests */,
+				A504D5041CF3501C00A37D95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A504D5041CF3501C00A37D95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A504D5031CF3501C00A37D95 /* menubar-exchange-rate.app */,
+				A504D5121CF3501D00A37D95 /* menubar-exchange-rateTests.xctest */,
+				A504D51D1CF3501D00A37D95 /* menubar-exchange-rateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A504D5051CF3501C00A37D95 /* menubar-exchange-rate */ = {
+			isa = PBXGroup;
+			children = (
+				A504D5061CF3501C00A37D95 /* AppDelegate.swift */,
+				A504D5081CF3501C00A37D95 /* Assets.xcassets */,
+				A504D50A1CF3501C00A37D95 /* MainMenu.xib */,
+				A504D50D1CF3501C00A37D95 /* Info.plist */,
+			);
+			path = "menubar-exchange-rate";
+			sourceTree = "<group>";
+		};
+		A504D5151CF3501D00A37D95 /* menubar-exchange-rateTests */ = {
+			isa = PBXGroup;
+			children = (
+				A504D5161CF3501D00A37D95 /* menubar_exchange_rateTests.swift */,
+				A504D5181CF3501D00A37D95 /* Info.plist */,
+			);
+			path = "menubar-exchange-rateTests";
+			sourceTree = "<group>";
+		};
+		A504D5201CF3501D00A37D95 /* menubar-exchange-rateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A504D5211CF3501D00A37D95 /* menubar_exchange_rateUITests.swift */,
+				A504D5231CF3501D00A37D95 /* Info.plist */,
+			);
+			path = "menubar-exchange-rateUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A504D5021CF3501C00A37D95 /* menubar-exchange-rate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A504D5261CF3501D00A37D95 /* Build configuration list for PBXNativeTarget "menubar-exchange-rate" */;
+			buildPhases = (
+				A504D4FF1CF3501C00A37D95 /* Sources */,
+				A504D5001CF3501C00A37D95 /* Frameworks */,
+				A504D5011CF3501C00A37D95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "menubar-exchange-rate";
+			productName = "menubar-exchange-rate";
+			productReference = A504D5031CF3501C00A37D95 /* menubar-exchange-rate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A504D5111CF3501D00A37D95 /* menubar-exchange-rateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A504D5291CF3501D00A37D95 /* Build configuration list for PBXNativeTarget "menubar-exchange-rateTests" */;
+			buildPhases = (
+				A504D50E1CF3501D00A37D95 /* Sources */,
+				A504D50F1CF3501D00A37D95 /* Frameworks */,
+				A504D5101CF3501D00A37D95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A504D5141CF3501D00A37D95 /* PBXTargetDependency */,
+			);
+			name = "menubar-exchange-rateTests";
+			productName = "menubar-exchange-rateTests";
+			productReference = A504D5121CF3501D00A37D95 /* menubar-exchange-rateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A504D51C1CF3501D00A37D95 /* menubar-exchange-rateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A504D52C1CF3501D00A37D95 /* Build configuration list for PBXNativeTarget "menubar-exchange-rateUITests" */;
+			buildPhases = (
+				A504D5191CF3501D00A37D95 /* Sources */,
+				A504D51A1CF3501D00A37D95 /* Frameworks */,
+				A504D51B1CF3501D00A37D95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A504D51F1CF3501D00A37D95 /* PBXTargetDependency */,
+			);
+			name = "menubar-exchange-rateUITests";
+			productName = "menubar-exchange-rateUITests";
+			productReference = A504D51D1CF3501D00A37D95 /* menubar-exchange-rateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A504D4FB1CF3501C00A37D95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jaime Lopez";
+				TargetAttributes = {
+					A504D5021CF3501C00A37D95 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A504D5111CF3501D00A37D95 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A504D5021CF3501C00A37D95;
+					};
+					A504D51C1CF3501D00A37D95 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A504D5021CF3501C00A37D95;
+					};
+				};
+			};
+			buildConfigurationList = A504D4FE1CF3501C00A37D95 /* Build configuration list for PBXProject "menubar-exchange-rate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A504D4FA1CF3501C00A37D95;
+			productRefGroup = A504D5041CF3501C00A37D95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A504D5021CF3501C00A37D95 /* menubar-exchange-rate */,
+				A504D5111CF3501D00A37D95 /* menubar-exchange-rateTests */,
+				A504D51C1CF3501D00A37D95 /* menubar-exchange-rateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A504D5011CF3501C00A37D95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A504D5091CF3501C00A37D95 /* Assets.xcassets in Resources */,
+				A504D50C1CF3501C00A37D95 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A504D5101CF3501D00A37D95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A504D51B1CF3501D00A37D95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A504D4FF1CF3501C00A37D95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A504D5071CF3501C00A37D95 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A504D50E1CF3501D00A37D95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A504D5171CF3501D00A37D95 /* menubar_exchange_rateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A504D5191CF3501D00A37D95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A504D5221CF3501D00A37D95 /* menubar_exchange_rateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A504D5141CF3501D00A37D95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A504D5021CF3501C00A37D95 /* menubar-exchange-rate */;
+			targetProxy = A504D5131CF3501D00A37D95 /* PBXContainerItemProxy */;
+		};
+		A504D51F1CF3501D00A37D95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A504D5021CF3501C00A37D95 /* menubar-exchange-rate */;
+			targetProxy = A504D51E1CF3501D00A37D95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A504D50A1CF3501C00A37D95 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A504D50B1CF3501C00A37D95 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A504D5241CF3501D00A37D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A504D5251CF3501D00A37D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A504D5271CF3501D00A37D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "menubar-exchange-rate/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JL.menubar-exchange-rate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A504D5281CF3501D00A37D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "menubar-exchange-rate/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JL.menubar-exchange-rate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A504D52A1CF3501D00A37D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "menubar-exchange-rateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JL.menubar-exchange-rateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/menubar-exchange-rate.app/Contents/MacOS/menubar-exchange-rate";
+			};
+			name = Debug;
+		};
+		A504D52B1CF3501D00A37D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "menubar-exchange-rateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JL.menubar-exchange-rateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/menubar-exchange-rate.app/Contents/MacOS/menubar-exchange-rate";
+			};
+			name = Release;
+		};
+		A504D52D1CF3501D00A37D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "menubar-exchange-rateUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JL.menubar-exchange-rateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "menubar-exchange-rate";
+			};
+			name = Debug;
+		};
+		A504D52E1CF3501D00A37D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "menubar-exchange-rateUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JL.menubar-exchange-rateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "menubar-exchange-rate";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A504D4FE1CF3501C00A37D95 /* Build configuration list for PBXProject "menubar-exchange-rate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A504D5241CF3501D00A37D95 /* Debug */,
+				A504D5251CF3501D00A37D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A504D5261CF3501D00A37D95 /* Build configuration list for PBXNativeTarget "menubar-exchange-rate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A504D5271CF3501D00A37D95 /* Debug */,
+				A504D5281CF3501D00A37D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A504D5291CF3501D00A37D95 /* Build configuration list for PBXNativeTarget "menubar-exchange-rateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A504D52A1CF3501D00A37D95 /* Debug */,
+				A504D52B1CF3501D00A37D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A504D52C1CF3501D00A37D95 /* Build configuration list for PBXNativeTarget "menubar-exchange-rateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A504D52D1CF3501D00A37D95 /* Debug */,
+				A504D52E1CF3501D00A37D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A504D4FB1CF3501C00A37D95 /* Project object */;
+}
