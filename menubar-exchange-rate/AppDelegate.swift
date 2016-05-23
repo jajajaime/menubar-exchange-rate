@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  menubar-exchange-rate
 //
-//  Created by Jaime López on 5/23/16.
+//  Created by Jaime Lopez on 5/23/16.
 //  Copyright © 2016 Jaime Lopez. All rights reserved.
 //
 

@@ -471,6 +471,7 @@
 				A504D5281CF3501D00A37D95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A504D5291CF3501D00A37D95 /* Build configuration list for PBXNativeTarget "menubar-exchange-rateTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +480,7 @@
 				A504D52B1CF3501D00A37D95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A504D52C1CF3501D00A37D95 /* Build configuration list for PBXNativeTarget "menubar-exchange-rateUITests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +489,7 @@
 				A504D52E1CF3501D00A37D95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
