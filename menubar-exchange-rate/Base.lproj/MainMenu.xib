@@ -669,10 +669,14 @@
         </menu>
         <menu id="ORF-eh-Sfn">
             <items>
-                <menuItem title="USD-CLP Exchange Rate by Jaime Lopez" id="TKX-Id-3wt">
+                <menuItem title="USD-CLP Exchange Rate by Jaime Lopez" id="Dcf-Fx-V69">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="sFg-Nf-9cR"/>
+                <menuItem title="Quit" id="TKX-Id-3wt">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
-                        <action selector="convertClick:" target="Voe-Tx-rLC" id="aRd-Cz-g1j"/>
+                        <action selector="quit:" target="Voe-Tx-rLC" id="E0M-Hy-dca"/>
                     </connections>
                 </menuItem>
             </items>

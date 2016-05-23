@@ -73,9 +73,10 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSXMLParserDelegate
         task.resume()
     }
 
-
-    @IBAction func convertClick(sender: NSMenuItem)
+    
+    @IBAction func quit(sender: NSMenuItem)
     {
+        NSApplication.sharedApplication().terminate(nil)
     }
 }
 
