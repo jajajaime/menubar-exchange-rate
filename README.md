@@ -12,5 +12,5 @@ For the moment it just does USD to CLP rate.
 
 ## Compatibility
 
-- Tested only on OS X 10.11.3+ El Capitan
+- Tested only on OS X El Capitan 10.11.3+
 - Built using XCode 7.3.1
